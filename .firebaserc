@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "qualicorp-210d8"
+  },
+  "targets": {
+    "qualicorp-210d8": {
+      "hosting": {
+        "instagram": [
+          "instagram-quasar"
+        ]
+      }
+    }
+  }
+}

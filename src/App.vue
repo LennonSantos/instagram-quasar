@@ -1,8 +1,8 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header class="bg-white" bordered>
-      <div class="container">
-        <div class="row justify-between items-center q-py-sm">
+      <div class="container q-pa-sm">
+        <div class="row justify-between items-center">
           <div class="col-2">
             <img
               alt="Instagram logo"
@@ -55,7 +55,7 @@
     </q-header>
 
     <q-page-container class="bg-grey-3">
-      <div class="container">
+      <div class="container q-pa-sm">
         <HelloWorld />
       </div>
     </q-page-container>

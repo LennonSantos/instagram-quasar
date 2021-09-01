@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="row q-col-gutter-lg">
-      <div class="q-mt-lg col-md-8 col-sm-12">
+      <div class="q-mt-lg col-md-8 col-sm-12 col-xs-12">
         <q-card flat bordered>
           <q-scroll-area style="height: 110px;">
             <div class="row no-wrap">
@@ -110,9 +110,10 @@
           </q-item>
         </q-card>
       </div> <!-- .col-8 -->
-      <div class="q-mt-lg col-md-4 col-sm-12">
+
+      <div class="q-mt-lg col-md-4 col-sm-12 col-xs-12">
         <q-card flat class="bg-transparent">
-          <q-item class="q-mt-md">
+          <q-item class="q-mt-md q-px-none">
             <q-item-section avatar>
               <q-avatar size="50px">
                 <img src="https://cdn.quasar.dev/img/avatar4.jpg">
@@ -137,7 +138,7 @@
 
           <q-item
             v-for="n in 4" :key="n"
-            class="q-mt-sm"
+            class="q-mt-sm q-px-none"
           >
             <q-item-section avatar>
               <q-avatar size="30px">
@@ -155,6 +156,35 @@
             <q-item-section side>
               <q-btn label="Seguir" no-caps color="blue" flat padding="none" />
             </q-item-section>
+          </q-item>
+
+          <q-item class="q-mt-sm q-px-none">
+            <q-btn
+              flat
+              padding="0"
+              size="12px"
+              color="grey-7"
+              no-caps
+              label="Github"
+              type="a"
+              target="_blank"
+              to="https://github.com/LennonSantos/instagram-quasar"
+            />
+            &nbsp;.&nbsp;
+            <q-btn
+              flat
+              padding="0"
+              size="12px"
+              color="grey-7"
+              no-caps
+              label="Linkedin"
+              type="a"
+              target="_blank"
+              to="https://www.linkedin.com/in/lennonsbueno/"
+            />
+          </q-item>
+          <q-item class="q-pa-none text-grey-7 text-caption">
+            © 2021 INSTAGRAM COM QUASAR
           </q-item>
         </q-card>
       </div> <!-- .col-4 -->

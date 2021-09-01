@@ -1,5 +1,7 @@
 # instagram-quasar
 
+DEMO: https://instagram-quasar.web.app/
+
 ![alt text](https://raw.githubusercontent.com/LennonSantos/instagram-quasar/main/src/assets/Captura%20de%20Tela%202021-09-01%20%C3%A0s%2001.15.34.png?raw=true)
 
 ## Project setup
